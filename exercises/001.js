@@ -24,4 +24,9 @@ function transformFirstAndLast(array) {
 
 function transformFirstAndLast(array) {
   //your code here
+  let result = {};
+
+  result[array[0]] = array[array.length - 1];
+  console.log(result);
+  return result;
 }
